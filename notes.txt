@@ -1,0 +1,49 @@
+#include<stio.h>
+int main()
+{   int a=10;
+a="VGI";
+
+    printf("Hello");
+    return 0;
+}
+
+variables are also known as identifier
+
+
+____________________________Day 2_________________________
+Control statements:
+those statements that allows to change the sequential execution of code
+1.Conditional statements
+    if
+    if-else
+    elif
+
+    Task: Find largest number among 3 provided number
+2.Switch
+3.Loops
+    for 
+    while
+
+    # Lists Methods
+    append(x)
+    extend(iterable)
+    insert(index,value)
+    remove(value)
+    pop(index)
+    clear()
+    index(value)
+    count(value)
+    sort() //reverse=false or true
+    reverse()
+    copy()
+
+
+    ___________________Stack_______________________
+
+    stack=[]
+    top=-1
+
+    def push(stack,item):
+        top=top+1
+        stack[top]=item
+    

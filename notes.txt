@@ -47,3 +47,17 @@ those statements that allows to change the sequential execution of code
         top=top+1
         stack[top]=item
     
+
+
+    ____________Linked List____________________________
+    Collection of similar nodes,where a node is memory location divided into 2 parts
+    1.Data(of any type)
+    2.Pointer to point next field
+    Linked list gives you feel of list(continious memory allocation)but actually not,
+    due to link between each node
+
+    Types:
+    Singly
+    Doubly
+    Circular
+    

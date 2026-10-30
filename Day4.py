@@ -57,7 +57,8 @@ print(stack)
 remove=stack.pop()
 print("Element removed is",remove)
 print(stack)
-#####
+
+
 def push(stack,item):
     stack.append(item)
 

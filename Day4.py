@@ -54,6 +54,8 @@ stack.append(10)
 stack.append(20)
 print(stack)
 
+
+
 remove=stack.pop()
 print("Element removed is",remove)
 print(stack)

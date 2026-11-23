@@ -34,3 +34,27 @@ def merge_sort(arr):
     return merge(left, right)
 numbers = [38, 27, 43, 3, 9, 82, 10]
 print(merge_sort(numbers))
+
+#__________________________Quick Sort________________________________#
+def partition(arr,low,high):
+    pivot= arr[low]
+    left=low+1
+    right=high
+
+    while True:
+        while left<=right and arr[left]<=pivot:
+            left=left+1
+        while left<=right and arr[right]>pivot:
+            right=right-1
+        if left>right:
+            arr[right],arr[low]=arr[low],arr[right]
+        else:
+       
+            arr[right],arr[left]=arr[left],arr[right]
+    return arr
+
+def quick_sort(arr,low,high):
+    if low<high:
+        partion(arr,low,high)
+        quick_sort(arr,low,p-1)
+        quick_sort(arr,p+1,high)
